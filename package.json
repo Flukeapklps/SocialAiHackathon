@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve@latest out -p $PORT",  // Ensure it uses the correct port for deployment
-    "export": "next export",  // Ensure static export works
+    "start": "npx serve@latest out -p $PORT",  
+    "export": "next export", 
     "lint": "next lint"
   },
   "dependencies": {
@@ -59,7 +59,7 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
     "zod": "^3.24.1",
-    "serve": "^14.2.4"  // Added the serve package to dependencies
+    "serve": "^14.2.4"  
   },
   "devDependencies": {
     "@types/node": "^22",
